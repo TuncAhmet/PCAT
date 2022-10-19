@@ -1,0 +1,33 @@
+{
+  "name": "pcat",
+  "version": "1.0.0",
+  "description": "photo blog app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TuncAhmet/PCAT.git"
+  },
+  "keywords": [
+    "photo",
+    "blog"
+  ],
+  "author": "tunchahmet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TuncAhmet/PCAT/issues"
+  },
+  "homepage": "https://github.com/TuncAhmet/PCAT#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "prettier": "2.7.1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
+  }
+}
